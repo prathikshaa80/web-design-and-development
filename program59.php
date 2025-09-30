@@ -1,0 +1,5 @@
+<?php
+function average($arr){ return array_sum($arr)/count($arr); }
+echo average(array(10,20,30));
+?>
+
